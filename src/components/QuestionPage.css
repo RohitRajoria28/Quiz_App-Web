@@ -1,0 +1,73 @@
+.circle {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    background-color: rgb(133, 139, 133);
+    border-radius: 50% ;
+    border: solid rgb(99, 96, 96) 1px;
+    cursor: pointer;
+  }
+
+  .Markedcircle {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    background-color: rgb(173, 46, 37);
+    border-radius: 50% ;
+    border: solid rgb(198, 65, 29) 1px;
+    cursor: pointer;
+  }
+  
+.text {
+margin: auto;
+}
+.question-number-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.drag-drop-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .drag-drop-semi-container{
+    padding: 20px;
+  }
+  .drag-item {
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    cursor: grab;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .drag-item:active {
+    transform: scale(1.1);
+  }
+  
+  .drop-target {
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .drop-target:hover {
+    background-color: #f2f2f2;
+  }
+
+  .next-prev-buttons{
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
